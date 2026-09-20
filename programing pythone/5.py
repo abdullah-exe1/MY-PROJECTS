@@ -1,0 +1,15 @@
+print("sign in")
+print("-" * 50)
+user = input("enter your new username: ")
+print()
+passw = input("enter your new password: ")
+print()
+print("your account was created")
+print("log in")
+print("-" * 50)
+login_u = input("enter your username: ")
+login_p = input("enter your password: ")
+if login_u == user and login_p == passw:
+    print("you are logged in")
+else:
+    print("your password or username are wrong")
