@@ -6,7 +6,7 @@ def sigmoid(z):
 
 learning_rate = 0.001
 
-trueY = np.array([99.43, 75.34, 1000000.32])
+trueY = np.array([99.43, 75.34, 421.232])
 
 w = np.array([
     [0.3,  0.2,  0.2, -1.2, -0.6],  
@@ -31,8 +31,8 @@ no1= sigmoid(no)
 loss = no1 - trueY
 
 
-w = np.load("intelligence_w.npy")
-b = np.load("intelligence_b.npy")
+#w = np.load("intelligence_w.npy")
+#b = np.load("intelligence_b.npy")
 
 for ai in range(50000):
 
